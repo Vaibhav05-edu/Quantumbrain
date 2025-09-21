@@ -56,7 +56,7 @@ Both pipelines are implemented in parallel, each with **8 steps** from encoding 
 | Features          | Pauli-Z exps                     | Quadrature exps                           |
 | Wrapper           | Quantum NN (trainable)           | Hybrid (quantum fixed + regressor)        |
 | Training          | End-to-end with Torch gradients  | Classical regressor only                  |
-| Results           | Loss ↓ from **4.8 → 0.7**        | Loss ↓ from **2.4 → 1.3**                 |
+| Results           | Loss ↓ from **6.6 → 0.7**        | Loss ↓ from **2.8 → 2.1**                 |
 
 ---
 
